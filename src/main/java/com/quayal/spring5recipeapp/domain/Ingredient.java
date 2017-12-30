@@ -6,6 +6,8 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Data
+@EqualsAndHashCode(exclude = {"recipe"})
+@ToString(exclude = {"recipe"})
 @Entity
 public class Ingredient {
 

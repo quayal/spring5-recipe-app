@@ -6,5 +6,13 @@
 </head>
 <body>
 <h1>My Recipes!</h1>
+<div th:each="recipe : ${recipes}">
+    <div>
+        <p th:text="${recipe.description}"></p>
+    </div>
+    <div>
+        <p th:text="${recipe.ingredients}"></p>
+    </div>
+</div>
 </body>
 </html>

@@ -10,5 +10,6 @@ INSERT INTO unit_of_measure (description) VALUES ('Pinch');
 INSERT INTO unit_of_measure (description) VALUES ('Ounce');
 INSERT INTO unit_of_measure (description) VALUES ('Pcs');
 INSERT INTO unit_of_measure (description) VALUES ('Pint');
+INSERT INTO unit_of_measure (description) VALUES ('Pound');
 
 

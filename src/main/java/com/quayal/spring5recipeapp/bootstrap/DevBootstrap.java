@@ -105,9 +105,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         Category americanCategory = americanOptional.get();
 
         Recipe perfectGuacamole = new Recipe();
-        perfectGuacamole.setDescription("Guacamole, a dip made from avocados, " +
-                "is originally from Mexico. The name is derived from two Aztec Nahuatl" +
-                " words—ahuacatl (avocado) and molli (sauce).");
+        perfectGuacamole.setDescription("Perfect Guacamole");
         perfectGuacamole.setCookTime(0);
         perfectGuacamole.setPrepTime(10);
         perfectGuacamole.setDifficulty(Difficulty.EASY);
@@ -164,8 +162,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 
         chickenTacos.setPrepTime(20);
         chickenTacos.setCookTime(15);
-        chickenTacos.setDescription("Spicy grilled chicken tacos! Quick marinade, then grill. Ready in about 30 minutes." +
-                " Great for a quick weeknight dinner, backyard cookouts, and tailgate parties.");
+        chickenTacos.setDescription("Spicy grilled chicken tacos");
         Notes chickenNotes = new Notes();
         chickenNotes.setRecipeNotes("Everyone can grab a warm tortilla from the pile and make their own tacos just they way they like them."+
                 "You could also easily double or even triple this recipe for a larger party. A taco and a cold beer on a warm day?" +
